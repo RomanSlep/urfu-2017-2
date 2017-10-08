@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "main": "phone-book.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "eslint . && mocha *.spec.js"
+  },
+  "dependencies": {
+    "babel-eslint": "8.0.1",
+    "eslint": "4.8.0",
+    "eslint-config-hrundel": "latest",
+    "mocha": "3.1.0"
+  }
+}
